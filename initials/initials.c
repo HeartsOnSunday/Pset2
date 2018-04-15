@@ -12,7 +12,7 @@ int main(void)
 
     long nameLength = strlen(name); //store the length of the name to use in the loop later
 
-    char firstInnitial = toupper(name[0]);   //capitlize the first initial (if its not already)
+    char firstInnitial = toupper(name[0]);   //capitlize the first initial (if its not capitalized already)
     printf("%c", firstInnitial);
 
     for (a = 0; a < nameLength; a++)
