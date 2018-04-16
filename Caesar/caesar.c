@@ -41,5 +41,5 @@ int main(int argC, string argV[])
         }
     }
     printf("\n");
-
+    return 0;
 }
