@@ -3,6 +3,9 @@
 #include <ctype.h> //allows toupper
 #include <string.h> //allows strlen
 
+//PRjm: Looks good! I like how you get the lenght of the name string to use in the foor loop beforehand, so it doesn't have to check each time through the loop
+    //just one note, if you use int instead of long as the datatype, it will use less memory.
+
 int main(void)
 {
     //GET THE NAME

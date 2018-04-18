@@ -5,6 +5,10 @@
 #include <stdlib.h>
 #include <math.h>
 
+//PRjm: Works well, nice job! I like how you used exit(1) instead of return, makes it very clear the program exits if argc!=2
+    //you may have been able to skip declaring the ASCII ints if you used alpha character to do the math like Cliff showed us in the walkthrough the other day
+    // you could substitue 'A' in line 34 instead of upperASCII and 'a' in line 39 when you call lower ASCII
+
 int main(int argC, string argV[])
 {
     if (argC != 2)

@@ -4,6 +4,10 @@
 #include <string.h> //strlen
 #include <stdlib.h>
 
+//PRjm: It's encyphering like a boss! Nice job adding comments to explain what's going on, vigenere is complicated.
+    // But, a few notes: same as with Caesar, it might be easier to follow if you use 'A' and 'a' instead of all the variables
+    // comments for the int equalizeLetters and the b++ incrementer might make it easier to follow, too
+
 int main(int argC, string argV[])
 {
     int a;
